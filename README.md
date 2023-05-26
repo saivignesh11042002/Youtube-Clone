@@ -41,3 +41,10 @@ You don’t have to ever use eject. The curated feature set is suitable for smal
 
 ## Demo Link
 https://youtubeclone1104.netlify.app/ (Netlify App)
+
+## Screenshots
+
+ ## Home Page :![image](https://github.com/saivignesh11042002/Youtube-Clone/assets/89264741/6d1c0534-01fd-4e15-8a5a-966ed2d4446a)
+ ## Videos Page : ![image](https://github.com/saivignesh11042002/Youtube-Clone/assets/89264741/96d5e2bb-e99c-4de7-be25-3c830fcd983e)
+
+
