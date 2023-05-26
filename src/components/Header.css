@@ -1,0 +1,108 @@
+.youtube-header {
+    background-color: red; /* Add your desired background color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    font-size: 24px;
+    color: #000; /* Customize the color of the hamburger menu icon */
+    cursor: pointer;
+    margin-right: 10px;
+    display:flex;
+}
+
+.youtube-logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.youtube-icon {
+    font-size: 30px;
+    color: white; /* Customize the color of the YouTube icon */
+    cursor: pointer;
+    margin-right: 5px;
+    display: flex;
+}
+
+.youtube-text {
+    color: white; /* Customize the color of the YouTube text */
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+}
+
+.middle-section {
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+}
+
+.search-icon,
+.voice-icon {
+    font-size: 20px;
+    color: #000; /* Customize the color of the icons */
+    cursor: pointer;
+    margin-left: 5px;
+    display: flex;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.video-icon,
+.bell-icon,
+.account-icon {
+    font-size: 28px;
+    color: #000; /* Customize the color of the icons */
+    margin-left: 15px;
+    cursor: pointer;
+    display: flex;
+}
+
+
+  @media screen and (max-width: 768px) {
+    /* Styles for screens with a maximum width of 768px (tablets and smaller) */
+    .youtube-header {
+      max-width: 768px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Styles for screens with a maximum width of 480px (mobile devices) */
+    .youtube-header {
+      max-width: 480px;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    /* Styles for screens with a maximum width of 480px (mobile devices) */
+    .youtube-header {
+      max-width: 300px;
+    }
+  }
